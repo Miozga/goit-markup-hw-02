@@ -23,10 +23,9 @@ body {
 }
 .adress {
   font-size: 14px;
-  font-weight: 400;
+
   line-height: 24px;
   letter-spacing: 0.03em;
-  text-align: left;
 }
 button {
   font-size: 16px;
@@ -53,10 +52,10 @@ p {
   top: 618px;
   border-radius: nullpx;
   font-size: 16px;
-  font-weight: 400;
+
   line-height: 30px;
   letter-spacing: 0.03em;
-  text-align: left;
+
 }
 h3 {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -69,7 +68,7 @@ h3 {
   font-weight: 700;
   line-height: 36px;
   letter-spacing: 0.06em;
-  text-align: left;
+ 
 }
 title {
   height: 70px;
@@ -84,7 +83,9 @@ title {
   left: 207px;
   top: 176px;
   border-radius: [object Object]px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25)
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+  
 }
 span.web {
   color: rgba(33, 150, 243, 1)
@@ -99,14 +100,13 @@ span.studio-primary {
   font-weight: 700;
   line-height: 31px;
   letter-spacing: 0.03em;
-  text-align: left;
 
-  font-family: Oleo Script;
+
   font-size: 26px;
-  font-weight: 400;
+
   line-height: 36px;
   letter-spacing: 0.03em;
-  text-align: left;
+
 }
 span.web-primary {
   color: rgba(33, 150, 243, 1);
@@ -115,14 +115,12 @@ span.web-primary {
   font-weight: 700;
   line-height: 31px;
   letter-spacing: 0.03em;
-  text-align: left;
 
-  font-family: Oleo Script;
   font-size: 26px;
-  font-weight: 400;
+ 
   line-height: 36px;
   letter-spacing: 0.03em;
-  text-align: left;
+
 }
 .footer-email {
   cursor: pointer; 
