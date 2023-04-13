@@ -1,0 +1,59 @@
+:root {
+  --background-color: #2196f3;
+}
+
+* {
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.button :hover {
+  cursor: pointer;
+  border-color: var(--background-color);
+}
+.button :focus {
+  color: white;
+  background-color: var(--background-color);
+}
+
+.img-portfolio {
+  width: 370px;
+  height: 294px;
+  border: 5px;
+}
+.img:hover {
+  outline: 2px solid var(--background-color);
+}
+h3 {
+  color: #212121;
+  width: 322px;
+  height: 36px;
+  left: 239px;
+  top: 576px;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+}
+p {
+  color: #757575;
+  width: 322px;
+  height: 30px;
+  left: 239px;
+  top: 616px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+
+  letter-spacing: 0.03em;
+}
+.footer-email:hover {
+  background-color: var(--background-color);
+}
