@@ -6,7 +6,7 @@
   --color-grey: #757575;
   --color-dark-grey: #2f303a;
   --color-shadow: rgba(255, 255, 255, 0.6);
-  --main-font: 'Roboto', sans-serif;
+  --main-font: 'Roboto','Relaway' sans-serif;
   --normal-text-color: #212121;
   --paragraph-text-color: #757575;
   --link-color: #2196f3;
@@ -25,8 +25,6 @@ a {
 
 body {
   font-family: var(--main-font);
-  max-width: 100%;
-  font-family: 'Roboto', 'Raleway', sans-serif;
   color: var(--normal-text-color);
 }
 .nav-item {
@@ -34,8 +32,7 @@ body {
 }
 
 .logo {
-  font-family: 'Raleway', sans-serif;
-  font-style: normal;
+  font-family: var(--main-font)
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -60,12 +57,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--normal-text-color);
 }
-a:link {
-  text-decoration: none;
-}
-a:visited {
-  text-decoration: none;
-}
 a:hover,
 a:focus,
 a::before,
@@ -74,12 +65,10 @@ a::after {
 }
 
 button {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   background: var(--button-color);
-  text-align: center;
   letter-spacing: 0.03em;
   border-style: none;
   cursor: pointer;
@@ -96,17 +85,13 @@ button {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  text-align: center;
   letter-spacing: 0.06em;
   background: var(--link-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  width: 200px;
-  height: 50px;
   color: var(--white);
 }
 .paragraph-title {
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -121,7 +106,6 @@ button {
   color: var(--paragraph-text-color);
 }
 .section-title {
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -130,30 +114,15 @@ button {
 
 .description-image {
   color: var(--color-grey);
-  width: 322px;
-  height: 30px;
-  left: 239px;
-  top: 616px;
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
 }
-.adress {
-  width: 247px;
-  height: 81px;
-  left: 215px;
-  top: 1739px;
 
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
 .street {
   color: var(--color-white);
-  width: 247px;
-  height: 21px;
-  left: 215px;
-  top: 1739px;
+
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -161,10 +130,7 @@ button {
 }
 .footer {
   background-color: var(--color-dark-grey);
-  width: 1600px;
-  height: 252px;
-  left: 0px;
-  top: 1628px;
+ 
 }
 /*.footer-email {
   width: 231px;
