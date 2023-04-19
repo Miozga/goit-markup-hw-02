@@ -31,7 +31,7 @@ body {
 .logo {
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.17;
+  line-height: 1.46;
   letter-spacing: 0.03em;
   color: var(--link-color);
 }
@@ -45,12 +45,11 @@ body {
   line-height: 1.17;
   letter-spacing: 0.02em;
   cursor: pointer;
-  color: var(--normal-text-color);
 }
 .contact-info {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.17px;
+  line-height: 1.17;
   letter-spacing: 0.02em;
   color: var(--paragraph-text-color);
 }
@@ -97,7 +96,6 @@ button {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  color: var(--normal-text-color);
 }
 .paragraphs-text {
   font-size: 14px;
@@ -128,7 +126,6 @@ button {
   color: var(--color-black);
 }
 .describe-name {
-  position: absolute;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
